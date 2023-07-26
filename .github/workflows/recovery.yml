@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: true
-        default: 'https://www.udrop.com/KqeF/recovery.img.lz4'
+        default: 'https://www.udrop.com/KqeF/recovery.img.lz4?download_token=6bc3717b8296da20f61e319e6431456e75c51c20126da3aae84834c025631dbe'
 
 env:
-  RECOVERY_URL: https://www.udrop.com/KqeF/recovery.img.lz4
+  RECOVERY_URL: https://www.udrop.com/KqeF/recovery.img.lz4?download_token=6bc3717b8296da20f61e319e6431456e75c51c20126da3aae84834c025631dbe
 
 jobs:
   build:
